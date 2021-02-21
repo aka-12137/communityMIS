@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.edu.gdut.imis.CommunityMIS.bean.Entry" table="entry" catalog="CommunityMIS">
+        <id name="id" type="integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="aid" type="integer">
+            <column name="aid" />
+        </property>
+         <property name="uid" type="integer">
+            <column name="uid" />
+        </property>
+     <property name="state" type="integer">
+            <column name="state" />
+        </property>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="sex" type="string">
+            <column name="sex" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" />
+        </property>
+        <property name="backup" type="string">
+            <column name="backup" />
+        </property>
+        <property name="createdate" type="date">
+            <column name="createdate" length="19" />
+        </property>
+    </class>
+</hibernate-mapping>

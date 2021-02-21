@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+.ulleftmenu {
+    border-right:1px solid #CCCCCC;width:190px;position:fixed;top:45px;left:0px;bottom:0px;background-color:#3a3e4a;
+}
+.limenuitem {
+    border-bottom:1px solid #E5E5E5;
+    cursor:pointer;
+    line-height:38px;
+    text-indent:10px;
+    font-weight:600;
+    font-size:16px;
+    border-left:3px solid #3a3e4a;
+}
+.limenuitem:hover {
+    background-color:#cdcdcd;
+    color:orange;
+            
+}
+.limenuitem:hover .ulleftsubitems li {
+    color:black;
+}
+.menuicon {
+    margin-right:10px;
+}
+.arrow-down {
+    float:right;line-height:38px;margin-right:20px;
+}
+.ulleftsubitems {
+    background-color:#3a3e4a;
+}
+.ulleftsubitems li { 
+    line-height:60px;     
+   	background-repeat:no-repeat;
+    background-position:45px 15px;
+    border-bottom:1.5px solid #E4E4E4;
+    text-align: center;
+}
+.ulleftsubitems li:hover {
+    color:#2B7DBC !important;
+}
